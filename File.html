@@ -1,0 +1,21 @@
+<!Doctype html>
+<html>
+<head>
+<title> File </title>
+</head>
+<body>
+<input type="hidden" id="demo" onchange="readfile();"/>
+<img src="" alt="the image file will be shown here." id="result"/>
+
+<script type="text/javascript">
+function readfile() {
+var reader = new FileReader();
+var file= document.getElementById('demo').files[0];
+reader.onload = function(e) {
+document.getElementById('result').src = e.target.result;
+}
+reader.readAsDataURL(file);
+}
+</script>
+</body>
+</html>

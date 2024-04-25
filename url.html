@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Range</title>
+</head>
+
+<body>
+    <p> Try entering an invalid URL then click the "submit" button. </p>
+    <from action="sample-page-handler.html">
+        <input type="url" id='demo' />
+        <input type="submit"/>
+    </from>
+    
+    <br />
+    <button onclick="getValue()">Get Value</button>
+
+    <script type="text/javascript">
+function getValue() {
+alert(document.getElementById('demo').value);
+        }
+    </script>
+</body>
+
+</html>

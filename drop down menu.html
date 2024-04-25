@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> dropdown menu </title>
+    </head>
+    <body>
+        <select id="sample">
+            <option value="Apples"> Apples </option>
+            <option value="Oranges"> Oranges</option>
+            <option value="Grapes"> Grapes </option>
+            <option value="Bananas"> Bananas </option>
+            <option value="Strawberries"> Strawberries </option>
+        </select>
+        <button onclick="getValue();"> Get Value </button>
+        <script type="text/javascript">
+            function getValue () {
+                var value = document.getElementById('sample').value;
+            }
+            </script>
+    </body>
+</html>
