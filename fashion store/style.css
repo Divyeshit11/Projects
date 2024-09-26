@@ -1,75 +1,111 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family: Arial,sans-serif;
-
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
 }
-a{
-    color:black;
-    font-weight:550;
+
+a {
+    color: black;
+    font-weight: 550;
     text-decoration: none;
 }
-header{
-    height:60px;
+
+header {
+    height: 80px;
     background-color: #806BDC;
     text-align: center;
 }
-.NavBar{
-padding-top:18px;
-}
-#navbar-title{
-    color:white;
-    font-size:25px;
-}
-.Items{
-padding-top:15px;
-padding-bottom:15px;
+
+.NavBar {
+    padding-top: 25px;
 }
 
-#item-table{
+#navbar-title {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.Items {
+    padding: 20px 0;
+}
+
+#item-table {
     width: 100%;
     text-align: center;
+}
 
+.Item-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
 }
-.item-tag{
-    font-size:14px;
+
+.item-tag {
+    font-size: 16px;
+    font-weight: bold;
 }
-.item-tag:hover{
-    color:#806BDC;
+
+.item-tag:hover {
+    color: #806BDC;
 }
-.Shoping-container{
+
+.Shoping-container {
     background-color: lightgrey;
-    text-align:center;
-    padding-bottom: 30px;
+    text-align: center;
+    padding: 40px 0;
 }
-#shoping-time-img{
+
+#shopping-time-img {
     margin-top: 30px;
+    width: 80vw;
+    height: auto;
+    max-height: 400px;
+}
+
+.Sales-table {
     width: 90vw;
-    height: 60vh;
-}
-.Sales-table{
-    width:90vw;
-    margin:auto;
-    border:1px solid grey;
-    border-collapse:collapse;
-    padding:12px;
-}
-.Sales-table-head{
-    background-color:#806BDC;
+    margin: 30px auto;
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 12px;
 }
 
-.Information{
-    width:92vw;
-    margin:20px;
-    font-size:11px;
-    color:#878787;
-    list-style-position: inside;
+.Sales-table-head {
+    background-color: #806BDC;
+    color: white;
 }
 
-footer{
-    height: 50px;
-    padding-top: 28px;
+.Sales-table th, .Sales-table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid grey;
+}
+
+.information {
+    width: 90vw;
+    margin: 20px auto;
+    font-size: 14px;
+    color: #878787;
+}
+
+.information h1, .information h2 {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.information p {
+    margin: 15px 0;
+    line-height: 1.5;
+}
+
+footer {
+    height: 60px;
+    padding-top: 20px;
     background-color: black;
-    color:white;
-    text-align:center;
+    color: white;
+    text-align: center;
+    font-size: 14px;
 }
